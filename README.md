@@ -27,30 +27,6 @@ Running Cost:
 
 
 
-Day 1: 10/10/26
-Raspberry Pi Setup:
-* Flashed microSD with Pi OS Lite, and setup installation. Had to do it twice due to disk format error.
-* Setup headless access through SSH
-* Created a DHCP reservation through router to convert raspberry IP from dynamic to static.
-* The Pi wouldn't accept SSH connections at first. Here's how I narrowed it down:
-  > Layer 1 (Physical)
-      ip addr on the Pi -eth0 showed NO-CARRIER / DOWN, so the cable was loose. Reseated it.
-  > Layer 2 (Data Link)
-      arp -a on my PC - Matched the Pi's MAC address to its IP
-  > Layer 3 (Network)
-      ping, Replies with TTL=64, which is typical of a Linux host
-  > Layer 4 / Application
-      ssh - "Connection refused" meant nothing was listening on port 22. Reflashing the SD card fixed it.
-Total time spent ~ 2:30hr
-
-What I learned: 
-* Work from the bottom of the OSI model up instead of guessing
-* "Connection refused" (host reachable, port closed) is different from a timeout (host unreachable)
-* Windows asks to format a Pi SD card because it can't read the Linux partition. Never click Format.
-* DHCP reservations keep a server's IP stable without hardcoding it on the device
-
-
-
 
 
 
