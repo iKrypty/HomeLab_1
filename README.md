@@ -42,6 +42,7 @@ Raspberry Pi Setup:
   > Layer 4 / Application
       ssh - "Connection refused" meant nothing was listening on port 22. Reflashing the SD card fixed it.
 Total time spent ~ 2:30hr
+
 What I learned: 
 * Work from the bottom of the OSI model up instead of guessing
 * "Connection refused" (host reachable, port closed) is different from a timeout (host unreachable)
