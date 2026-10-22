@@ -5,13 +5,16 @@ Raspberry Pi Setup:
 * Created a DHCP reservation through router to convert raspberry IP from dynamic to static.
 * The Pi wouldn't accept SSH connections at first. Here's how I narrowed it down:
   > Layer 1 (Physical)
-      ip addr on the Pi -eth0 showed NO-CARRIER / DOWN, so the cable was loose. Reseated it.
+      ip addr on the Pi -eth0 showed NO-CARRIER / DOWN 
+      so the cable was loose. 
+      Reseated it.
   > Layer 2 (Data Link)
       arp -a on my PC - Matched the Pi's MAC address to its IP
   > Layer 3 (Network)
       ping, Replies with TTL=64, which is typical of a Linux host
   > Layer 4 / Application
-      ssh - "Connection refused" meant nothing was listening on port 22. Reflashing the SD card fixed it.
+      ssh - "Connection refused" meant nothing was listening on port 22. 
+      Reflashing the SD card fixed it.
 Total time spent ~ 2:30hr
 
 What I learned: 
