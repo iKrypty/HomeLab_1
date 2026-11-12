@@ -13,7 +13,8 @@ What I learned:
  * Plain DNS is visible to anyone on the path, which is why encrypted DNS matters.
  * Some commands (ipconfig /flushdns, arp -d *) require an administrator shell.
 
-Queries went from my PC to my router (192.168.1.1) on UDP port 53. Each query and its response share a Transaction ID, the same idea as in DHCP. The answer includes a TTL, which is how long my PC can cache the result
+Queries went from my PC to my router (192.168.1.1) on UDP port 53. Each query and its response share a Transaction ID, the same idea as in DHCP. The answer includes a TTL, which is how long my PC can cache the result.
+
 Time Spent: 1.5 hours
 
 
