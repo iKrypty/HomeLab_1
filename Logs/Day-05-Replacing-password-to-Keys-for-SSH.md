@@ -17,4 +17,5 @@ What I learned:
  * Logs stored on the same machine can be deleted by an attacker. The next step is sending logs to a central server (like Wazuh).
 
 There was a lot of trial and error using the commands and going back and forth to see if config files were actually applied or not. Claude was a big help or else it would have taken me a couple more hours!
+
 Total time spent: 2.5 hours
