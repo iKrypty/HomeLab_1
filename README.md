@@ -13,8 +13,8 @@ Devices
   Linux server, future network sensor. Raspberry Pi OS Lite (64-bit), headless, managed over SSH
 - TP-Link TL-SG108PE
   Managed switch, 8 gigabit ports, 4 PoE, 802.1Q VLANs, port mirroring
-- 100ft Cat6 pure copper cable.
-  Patch cables. Hand-terminated T568B, every cable tested
+- 100ft Cat6 bulk pure copper cable.
+  Hand-terminated T568B, every cable tested
 - ZOERAX network tool kit
   Pass-through crimper, cable tester, punch-down tools, and etc.
 
