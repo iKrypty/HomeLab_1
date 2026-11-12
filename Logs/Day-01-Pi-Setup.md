@@ -15,10 +15,10 @@ Raspberry Pi Setup:
   * Layer 4 / Application
       - ssh: "Connection refused" meant nothing was listening on port 22. 
       - Reflashing the SD card fixed it.
-Total time spent ~ 2:30hr
 
 What I learned: 
 * Work from the bottom of the OSI model up instead of guessing
 * "Connection refused" (host reachable, port closed) is different from a timeout (host unreachable)
 * Windows asks to format a Pi SD card because it can't read the Linux partition. Never click Format.
 * DHCP reservations keep a server's IP stable without hardcoding it on the device
+Total time spent ~ 2:30hr
