@@ -13,17 +13,18 @@ Devices
   Linux server, future network sensor. Raspberry Pi OS Lite (64-bit), headless, managed over SSH
 - TP-Link TL-SG108PE
   Managed switch, 8 gigabit ports, 4 PoE, 802.1Q VLANs, port mirroring
-- Cat6 pure copper cable
+- 100ft Cat6 pure copper cable.
   Patch cables. Hand-terminated T568B, every cable tested
 - ZOERAX network tool kit
-  Pass-through crimper, cable tester, punch-down tool
+  Pass-through crimper, cable tester, punch-down tools, and etc.
 
 Running Cost: 
- - Raspberry Pi 4:            $170.59
- - TP Link Switch:             $66.40
- - ZOERAX Tool kit:            $47.75
- - Cat6 Cable, boots, plugs:   $54.00
- - Total -------------------- $338.74
+ - Raspberry Pi 4:              $170.59
+ - TP Link Switch:               $66.40
+ - ZOERAX Tool kit:              $47.75
+ - Cat6 Cable, boots, plugs:     $54.00
+ - 10pc 0.15m patch cables:      $62.69
+ - Total --------------------   $401.43
 
 
 
